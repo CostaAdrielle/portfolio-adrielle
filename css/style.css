@@ -27,7 +27,8 @@ header {
 }
  .img-icon{
       width: 10%;
-      border: 7px solid #4834d4;
+      border: 6px solid #4834d4;
+      border-radius: 48%;
   }
 html, body{
   height: 100%;
@@ -61,8 +62,8 @@ hr.light {
   background-color: #138D75;
   border-color: #138D75;
 }
-button:focus, button:hover {
-    color: pink !important;
+but:hover {
+    color: #9b59b6 !important;
     text-decoration: underline !important;
     background-color: #0B5345 !important;
 }
@@ -114,4 +115,10 @@ a:focus, a:hover {
   color: #c0392b !important;
   text-decoration: underline !important;
   background-color: #ffff !important;
+}
+.style-back-footer{
+  background-color: #3498db !important;
+}
+.style-btncolor{
+  color: #ffff !important;
 }
