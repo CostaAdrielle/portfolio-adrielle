@@ -97,13 +97,16 @@ but:hover {
     background-color: #c0392b !important;
 }
 .style-section1 {
-    background-color: #e67e22 !important;
+    background-image: linear-gradient(to bottom, #e67e22, #e67e22, #f1c40f 100%) !important;
 }
 .style-section2 {
-    background-color: #f1c40f !important;
+    background-image: linear-gradient(to bottom, #f1c40f, #f1c40f, #2ecc71 100%) !important;
 }
 .style-section3 {
-    background-color: #2ecc71 !important;
+    background-image: linear-gradient(to bottom, #2ecc71, #2ecc71, #3498db 100%) !important;
+}
+.style-back-footer{
+  background-color: #3498db !important;
 }
 
 a:focus, a:hover {
@@ -115,9 +118,6 @@ a:focus, a:hover {
   color: #c0392b !important;
   text-decoration: underline !important;
   background-color: #ffff !important;
-}
-.style-back-footer{
-  background-color: #3498db !important;
 }
 .style-btncolor{
   color: #ffff !important;
